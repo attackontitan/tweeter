@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tweet:</b>
+  <%= @lead.tweet_id %>
+</p>
+
+<p>
+  <b>Webinar title:</b>
+  <%= @lead.webinar_title %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @lead.link %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @lead.email %>
+</p>
+
+<p>
+  <b>Type cd:</b>
+  <%= @lead.type_cd %>
+</p>
+
+
+<%= link_to 'Edit', edit_lead_path(@lead) %> |
+<%= link_to 'Back', leads_path %>

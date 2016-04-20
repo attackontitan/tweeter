@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  keywords: MyString
+  hash_tag: MyString
+  handle: MyString
+
+two:
+  keywords: MyString
+  hash_tag: MyString
+  handle: MyString

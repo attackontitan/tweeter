@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Keywords:</b>
+  <%= @query.keywords %>
+</p>
+
+<p>
+  <b>Hash tag:</b>
+  <%= @query.hash_tag %>
+</p>
+
+<p>
+  <b>Handle:</b>
+  <%= @query.handle %>
+</p>
+
+
+<%= link_to 'Edit', edit_query_path(@query) %> |
+<%= link_to 'Back', queries_path %>
